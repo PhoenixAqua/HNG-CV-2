@@ -10,6 +10,9 @@ body {
 	font-size: 19px;
 	font-weight: 300;
 }
+img{
+	width: 100%;
+}
 a { color: #81b4eb;  }
 a, button { transition: all 0.3s ease; }
 a:hover,
@@ -26,7 +29,7 @@ a:focus {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 100% 800px;
-	color: white;
+	color: darkolivegreen;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -76,14 +79,14 @@ a:focus {
 .tm-btn-white-big {
     font-size: 2.4rem;
     color: #a1c7f1;
-    background-color: white;
+    background-color: darkolivegreen;
     padding: 0.75rem 2.5rem;
     border-radius: 0.5rem;
 }
 
 .tm-btn-white-big:hover,
 .tm-btn-white-big:focus {
-	color: white;
+	color: darkolivegreen;
     background-color: #A2D1FF;
 }
 
@@ -97,7 +100,7 @@ a:focus {
 }
 
 .tm-carousel-item-title {
-	color: #81b4eb;
+	color: darkolivegreen;
 	font-size: 2.1rem;
 	font-weight: 300;
 	margin-bottom: 3rem;
@@ -174,14 +177,14 @@ a:focus {
 }
 
 .tm-2-col-text-title {
-	color: #81b4eb;
+	color: darkolivegreen;
     font-size: 1.9rem;
     font-weight: 300;
     margin-bottom: 5%;    
 }
 
 .tm-2-col-text-description {
-	color: #81b4eb;
+	color: #6b6565;
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.9;    
@@ -193,7 +196,7 @@ a:focus {
 	background-color: transparent;
     border: 2px solid #81b4eb;
     border-radius: 2.5rem;
-    color: #81b4eb;
+    color: darkolivegreen;
     display: inline-block;
     font-size: 1.5rem;
     font-weight: 400;
@@ -202,7 +205,7 @@ a:focus {
 
 .tm-bordered-btn:hover,
 .tm-bordered-btn:focus {
-	color: white;
+	color: darkolivegreen;
 	background-color: #81b4eb;
 }
 
@@ -240,7 +243,7 @@ a:focus {
 }
 
 .tm-icon-text-box > .fa {
-	color: #81b4eb;
+	color: darkolivegreen;
 	margin-bottom: 2rem;
 	width: 100%;
 	text-align: center; /*http://stackoverflow.com/questions/19162889/how-to-center-font-awesome-icons-horizontally*/
@@ -320,7 +323,7 @@ textarea.form-control {
 hr { width: 65%; }
 
 .tm-copyright-text {
-	color: #999999;
+	color: #6b6565;
 	font-size: 1.3rem;
 	padding-top: 3%;
 	padding-bottom: 3%;
@@ -437,6 +440,12 @@ hr { width: 65%; }
 
 @media (max-width: 480px) {
 	.tm-2-col-text { padding: 10%; }	
+}
+
+@media (max-width: 545) {
+	.tm-2-col-img-text{
+		text-align: center;
+	}
 }
 
 
